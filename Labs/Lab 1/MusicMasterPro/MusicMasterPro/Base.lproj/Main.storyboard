@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FirstViewController-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController title="FirstViewController" id="9pv-A4-QxB" customClass="FirstViewController" customModule="MusicMasterPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Master Pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-MM-K0X">
+                                <rect key="frame" x="8" y="44" width="304" height="29"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pfb-3d-ItS">
+                                <rect key="frame" x="0.0" y="85" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="Nsp-sQ-ddx"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="n1w-3s-OFX"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You should listen to Forever, Michael by Michael Jackson" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yg-ca-sjm">
+                                <rect key="frame" x="8" y="340" width="304" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7yg-ca-sjm" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="8" id="1de-8d-k2O"/>
+                            <constraint firstItem="Pfb-3d-ItS" firstAttribute="top" secondItem="0PO-MM-K0X" secondAttribute="bottom" constant="12" id="KME-dJ-7Ib"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="0PO-MM-K0X" secondAttribute="trailing" constant="8" id="MG6-3e-Nqy"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="7yg-ca-sjm" secondAttribute="trailing" constant="8" id="Smv-Ch-CD7"/>
+                            <constraint firstItem="0PO-MM-K0X" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="24" id="XW0-Nu-EZ3"/>
+                            <constraint firstItem="0PO-MM-K0X" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="8" id="Z5h-cG-a9l"/>
+                            <constraint firstItem="Pfb-3d-ItS" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="b7e-ss-DoY"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="7yg-ca-sjm" secondAttribute="bottom" constant="50" id="c0y-rz-Hcs"/>
+                            <constraint firstItem="Pfb-3d-ItS" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="rU9-Vn-uY4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Albums" image="albums25px" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="musicPicker" destination="Pfb-3d-ItS" id="Qsw-e3-Azc"/>
+                        <outlet property="resultLabel" destination="7yg-ca-sjm" id="3EY-ke-yyO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--ThirdViewController-->
+        <scene sceneID="Z7O-wt-Uw4">
+            <objects>
+                <viewController title="ThirdViewController" id="ZPz-ee-yGI" customClass="ThirdViewController" customModule="MusicMasterPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rLg-c4-fdX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Master Pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3T-nc-Fet">
+                                <rect key="frame" x="8" y="44" width="304" height="29"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="HT8-ux-4G0">
+                                <rect key="frame" x="135.5" y="171" width="49" height="138"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zh-mL-5Nd">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="30"/>
+                                        <state key="normal" title="Record"/>
+                                        <connections>
+                                            <action selector="recordTrack:" destination="ZPz-ee-yGI" eventType="touchUpInside" id="ZHH-R3-wKJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heq-bY-kcH">
+                                        <rect key="frame" x="3.5" y="54" width="42" height="30"/>
+                                        <state key="normal" title="Pause"/>
+                                        <connections>
+                                            <action selector="pauseTrack:" destination="ZPz-ee-yGI" eventType="touchUpInside" id="9pd-at-GQj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd0-Sn-FmD">
+                                        <rect key="frame" x="9.5" y="108" width="30" height="30"/>
+                                        <state key="normal" title="Play"/>
+                                        <connections>
+                                            <action selector="playTrack:" destination="ZPz-ee-yGI" eventType="touchUpInside" id="gnY-cd-x3W"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C3p-BH-fFk" firstAttribute="trailing" secondItem="x3T-nc-Fet" secondAttribute="trailing" constant="8" id="Iv5-I5-8J9"/>
+                            <constraint firstItem="x3T-nc-Fet" firstAttribute="top" secondItem="C3p-BH-fFk" secondAttribute="top" constant="24" id="SJM-2O-CDj"/>
+                            <constraint firstItem="HT8-ux-4G0" firstAttribute="centerY" secondItem="rLg-c4-fdX" secondAttribute="centerY" id="Tqn-bY-PuY"/>
+                            <constraint firstItem="HT8-ux-4G0" firstAttribute="centerX" secondItem="rLg-c4-fdX" secondAttribute="centerX" id="gfY-Ml-Bms"/>
+                            <constraint firstItem="x3T-nc-Fet" firstAttribute="leading" secondItem="C3p-BH-fFk" secondAttribute="leading" constant="8" id="u4n-LD-SlB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C3p-BH-fFk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Record" image="microphone25px" id="SBR-om-wXL"/>
+                    <connections>
+                        <outlet property="pauseButton" destination="heq-bY-kcH" id="R2G-GV-LSG"/>
+                        <outlet property="playButton" destination="gd0-Sn-FmD" id="3HF-GP-azg"/>
+                        <outlet property="recordButton" destination="2Zh-mL-5Nd" id="psa-xA-GxT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PtP-Mi-9id" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1038"/>
+        </scene>
+        <!--SecondViewController-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController title="SecondViewController" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="MusicMasterPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Master Pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNQ-9n-hsv">
+                                <rect key="frame" x="8" y="44" width="304" height="29"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqJ-eJ-1fz">
+                                <rect key="frame" x="8" y="351" width="304" height="30"/>
+                                <state key="normal" title="Open Music App"/>
+                                <connections>
+                                    <action selector="openMusic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="pbY-5N-gSU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="JNQ-9n-hsv" secondAttribute="trailing" constant="8" id="8Q1-Op-8NY"/>
+                            <constraint firstItem="JNQ-9n-hsv" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="8" id="Eci-iB-GSd"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="HqJ-eJ-1fz" secondAttribute="bottom" constant="50" id="Ffl-wU-2Su"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="HqJ-eJ-1fz" secondAttribute="trailing" constant="8" id="pDB-Ir-wnv"/>
+                            <constraint firstItem="HqJ-eJ-1fz" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="8" id="pK7-VR-74S"/>
+                            <constraint firstItem="JNQ-9n-hsv" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="24" id="pw3-AL-y2j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Play Music" image="musicPlayer25px" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="ZPz-ee-yGI" kind="relationship" relationship="viewControllers" id="0Ne-JR-E2G"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="albums25px" width="25" height="25"/>
+        <image name="microphone25px" width="20" height="25"/>
+        <image name="musicPlayer25px" width="20" height="25"/>
+    </resources>
+</document>

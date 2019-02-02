@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   artistAlbums.plist
+   MusicMasterPro
+
+   Created by Ari Klebanov on 1/31/19.
+   Copyright (c) 2019 Ari Klebanov. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+    	<dict>
+    		<key>name</key>
+    		<string>Michael Jackson</string>
+    		<key>albums</key>
+    		<array>
+    			<string>Forever, Michael</string>
+    			<string>Off The Wall</string>
+    			<string>Thriller</string>
+    			<string>Bad</string>
+    			<string>Dangerous</string>
+    			<string>HIStory</string>
+    			<string>Invincible</string>
+    		</array>
+    	</dict>
+    	<dict>
+    		<key>name</key>
+    		<string>Green Day</string>
+    		<key>albums</key>
+    		<array>
+    			<string>Dookie</string>
+    			<string>Insomniac</string>
+    			<string>Nimrod</string>
+    			<string>Warning</string>
+    			<string>American Idiot</string>
+    			<string>Uno!/Dos!/Tres!</string>
+    		</array>
+    	</dict>
+    	<dict>
+    		<key>name</key>
+    		<string>Disturbed</string>
+    		<key>albums</key>
+    		<array>
+    			<string>The Sickness</string>
+    			<string>Believe</string>
+    			<string>Ten Thousand Fists</string>
+    			<string>Indestructible</string>
+    			<string>Asylum</string>
+    			<string>Immortalized</string>
+    			<string>Evolution</string>
+    		</array>
+    	</dict>
+    	<dict>
+    		<key>name</key>
+    		<string>Kelly Clarkson</string>
+    		<key>albums</key>
+    		<array>
+    			<string>Breakaway</string>
+    			<string>My December</string>
+    			<string>All I Ever Wanted</string>
+    			<string>Stronger</string>
+    			<string>Wrapped in Red</string>
+    			<string>Piece by Piece</string>
+    			<string>Meaning of Life</string>
+    		</array>
+    	</dict>
+		<dict>
+    		<key>name</key>
+    		<string>Michael Buble</string>
+    		<key>albums</key>
+    		<array>
+    			<string>It's Time</string>
+    			<string>Call Me Irresponsible</string>
+    			<string>Crazy Love</string>
+    			<string>Christmas</string>
+    			<string>To Be Loved</string>
+    			<string>Nobody but Me</string>
+    			<string>Love</string>
+    		</array>
+    	</dict>
+    	<dict>
+    		<key>name</key>
+    		<string>Eminem</string>
+    		<key>albums</key>
+    		<array>
+    			<string>The Slim Shady LP</string>
+    			<string>The Eminem Show</string>
+    			<string>Encore</string>
+    			<string>Relapse</string>
+    			<string>Recovery</string>
+    			<string>Revival</string>
+    			<string>Kamikaze</string>
+    		</array>
+    	</dict>
+    	<dict>
+    		<key>name</key>
+    		<string>Dance Gavin Dance</string>
+    		<key>albums</key>
+    		<array>
+    			<string>Downtown Battle Mountain</string>
+    			<string>Happiness</string>
+    			<string>Downtown Battle Mountain II</string>
+    			<string>Acceptance Speech</string>
+    			<string>Instant Gratification</string>
+    			<string>Mothership</string>
+    			<string>Artificial Selection</string>
+    		</array>
+    	</dict>
+    </array>
+</plist>
