@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   shoeList.plist
+   Shoe Rack Pro
+
+   Created by Ari Klebanov on 2/18/19.
+   Copyright (c) 2019 Ari Klebanov. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+	<dict>
+		<key>style</key>
+		<string>Slip-On</string>
+		<key>shoes</key>
+		<array>
+			<string>Black/White Checkerboard</string>
+			<string>(Peanuts) Snoopy</string>
+			<string>(Van Gogh) Skull/True White</string>
+		</array>
+	</dict>
+	<dict>
+		<key>style</key>
+		<string>Old-Skool</string>
+		<key>shoes</key>
+		<array>
+			<string>(VANS) White/Black</string>
+			<string>(Checkered) Black/White</string>
+			<string>(Space Voyager) Firecracker Orange</string>
+			<string>(BMX) Red/Blue Check</string>
+			<string>(Disney) 80's Mickey</string>
+		</array>
+	</dict>
+	<dict>
+		<key>style</key>
+		<string>Authentic</string>
+		<key>shoes</key>
+		<array>
+			<string>(Abstract) Black/White</string>
+			<string>(OTW) Red</string>
+			<string>(Vans Family) Navy</string>
+		</array>
+	</dict>
+	<dict>
+		<key>style</key>
+		<string>Era</string>
+		<key>shoes</key>
+		<array>
+			<string>Pewter/Frost Grey</string>
+			<string>Black/White</string>
+			<string>Black/Black</string>
+		</array>
+	</dict>
+	<dict>
+		<key>style</key>
+		<string>Sk8-Hi</string>
+		<key>shoes</key>
+		<array>
+			<string>(MTE) Pat Moore/Grape Leaf</string>
+			<string>(Custom MTE) Maroon/Navy</string>
+			<string>(MTE) Sudan Brown/Manzanine Blue</string>
+			<string>(MTE) Pewter/Black</string>
+			<string>(MTE) Glazed Ginger</string>
+			<string>Asphalt/Navy</string>
+		</array>
+	</dict>
+	<dict>
+		<key>style</key>
+		<string>Chima Pro 2</string>
+		<key>shoes</key>
+		<array>
+			<string>Darkest Spruce</string>
+			<string>Port Royale</string>
+			<string>Classic White</string>
+			<string>Drizzle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>style</key>
+		<string>Kyle Walker Pro</string>
+		<key>shoes</key>
+		<array>
+			<string>Baby Blue</string>
+			<string>Lavender</string>
+			<string>(Denim) Black/Pewter</string>
+		</array>
+	</dict>
+</array>
+</plist>
