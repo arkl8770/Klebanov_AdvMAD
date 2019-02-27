@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Freddie Mercury</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Freddie_Mercury</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kurt Cobain</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Kurt_Cobain</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Neil Peart</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Neil_Peart</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jon Bon Jovi</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Jon_Bon_Jovi</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>John Lennon</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/John_Lennon</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alice Cooper</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Alice_Cooper</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mick Jagger</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Mick_Jagger</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Elvis Presley</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Elvis_Presley</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jimi Hendrix</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Jimi_Hendrix</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Slash</string>
+			<key>url</key>
+			<string>https://en.wikipedia.org/wiki/Slash_(musician)</string>
+		</dict>
+	</array>
+</plist>
