@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613C2085CCD59BBF26AC5971 /* Pods_fitnessTrackerPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985D5B6F36A63FD37A0FC8F /* Pods_fitnessTrackerPro.framework */; };
+		67DD05E22230A4E800122A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD05E12230A4E800122A29 /* AppDelegate.swift */; };
+		67DD05E42230A4E800122A29 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD05E32230A4E800122A29 /* FoodViewController.swift */; };
+		67DD05E62230A4E800122A29 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD05E52230A4E800122A29 /* DrinkViewController.swift */; };
+		67DD05E92230A4E800122A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DD05E72230A4E800122A29 /* Main.storyboard */; };
+		67DD05EB2230A4ED00122A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67DD05EA2230A4ED00122A29 /* Assets.xcassets */; };
+		67DD05EE2230A4ED00122A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DD05EC2230A4ED00122A29 /* LaunchScreen.storyboard */; };
+		67DD05F6223198BD00122A29 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD05F5223198BD00122A29 /* Food.swift */; };
+		67DD05F82231999A00122A29 /* FoodDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD05F72231999A00122A29 /* FoodDataController.swift */; };
+		67DD05FC2235AA3500122A29 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD05FB2235AA3500122A29 /* Drink.swift */; };
+		67DD06022235AAE100122A29 /* DrinkDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06012235AAE100122A29 /* DrinkDataController.swift */; };
+		67DD06062235AF1200122A29 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06052235AF1200122A29 /* ExerciseViewController.swift */; };
+		67DD06082235B03700122A29 /* ExerciseDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06072235B03700122A29 /* ExerciseDataController.swift */; };
+		67DD060A2235B13300122A29 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06092235B13300122A29 /* Exercise.swift */; };
+		67DD060C2235B29400122A29 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD060B2235B29400122A29 /* Sleep.swift */; };
+		67DD060E2235B2F700122A29 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD060D2235B2F700122A29 /* SleepViewController.swift */; };
+		67DD06102235B44200122A29 /* SleepDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD060F2235B44200122A29 /* SleepDataController.swift */; };
+		67DD06122235BBED00122A29 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06112235BBED00122A29 /* DetailViewController.swift */; };
+		67DD06162235F10000122A29 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06152235F10000122A29 /* AddFoodViewController.swift */; };
+		67DD06182235F14B00122A29 /* AddDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06172235F14B00122A29 /* AddDrinkViewController.swift */; };
+		67DD061A2235FAE400122A29 /* AddExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD06192235FAE400122A29 /* AddExerciseViewController.swift */; };
+		67DD061C2235FB1400122A29 /* AddSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD061B2235FB1400122A29 /* AddSleepViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5985D5B6F36A63FD37A0FC8F /* Pods_fitnessTrackerPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fitnessTrackerPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DD05DE2230A4E800122A29 /* fitnessTrackerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitnessTrackerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DD05E12230A4E800122A29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67DD05E32230A4E800122A29 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		67DD05E52230A4E800122A29 /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
+		67DD05E82230A4E800122A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67DD05EA2230A4ED00122A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67DD05ED2230A4ED00122A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67DD05EF2230A4EE00122A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DD05F5223198BD00122A29 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		67DD05F72231999A00122A29 /* FoodDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataController.swift; sourceTree = "<group>"; };
+		67DD05FB2235AA3500122A29 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		67DD06012235AAE100122A29 /* DrinkDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDataController.swift; sourceTree = "<group>"; };
+		67DD06052235AF1200122A29 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		67DD06072235B03700122A29 /* ExerciseDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataController.swift; sourceTree = "<group>"; };
+		67DD06092235B13300122A29 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		67DD060B2235B29400122A29 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		67DD060D2235B2F700122A29 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		67DD060F2235B44200122A29 /* SleepDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataController.swift; sourceTree = "<group>"; };
+		67DD06112235BBED00122A29 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		67DD06152235F10000122A29 /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		67DD06172235F14B00122A29 /* AddDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinkViewController.swift; sourceTree = "<group>"; };
+		67DD06192235FAE400122A29 /* AddExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseViewController.swift; sourceTree = "<group>"; };
+		67DD061B2235FB1400122A29 /* AddSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSleepViewController.swift; sourceTree = "<group>"; };
+		BEBAE8514962376637703D2C /* Pods-fitnessTrackerPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnessTrackerPro.release.xcconfig"; path = "Target Support Files/Pods-fitnessTrackerPro/Pods-fitnessTrackerPro.release.xcconfig"; sourceTree = "<group>"; };
+		D804277E72BA5027876E9CB2 /* Pods-fitnessTrackerPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnessTrackerPro.debug.xcconfig"; path = "Target Support Files/Pods-fitnessTrackerPro/Pods-fitnessTrackerPro.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67DD05DB2230A4E800122A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613C2085CCD59BBF26AC5971 /* Pods_fitnessTrackerPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B958DD1C301B3F9042DDAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D804277E72BA5027876E9CB2 /* Pods-fitnessTrackerPro.debug.xcconfig */,
+				BEBAE8514962376637703D2C /* Pods-fitnessTrackerPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4909985F0EECAB3794B440B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5985D5B6F36A63FD37A0FC8F /* Pods_fitnessTrackerPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67DD05D52230A4E800122A29 = {
+			isa = PBXGroup;
+			children = (
+				67DD05E02230A4E800122A29 /* fitnessTrackerPro */,
+				67DD05DF2230A4E800122A29 /* Products */,
+				0B958DD1C301B3F9042DDAA7 /* Pods */,
+				4909985F0EECAB3794B440B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67DD05DF2230A4E800122A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67DD05DE2230A4E800122A29 /* fitnessTrackerPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67DD05E02230A4E800122A29 /* fitnessTrackerPro */ = {
+			isa = PBXGroup;
+			children = (
+				67DD05E12230A4E800122A29 /* AppDelegate.swift */,
+				67DD05E72230A4E800122A29 /* Main.storyboard */,
+				67DD05F5223198BD00122A29 /* Food.swift */,
+				67DD05E32230A4E800122A29 /* FoodViewController.swift */,
+				67DD05F72231999A00122A29 /* FoodDataController.swift */,
+				67DD06152235F10000122A29 /* AddFoodViewController.swift */,
+				67DD05FB2235AA3500122A29 /* Drink.swift */,
+				67DD05E52230A4E800122A29 /* DrinkViewController.swift */,
+				67DD06012235AAE100122A29 /* DrinkDataController.swift */,
+				67DD06172235F14B00122A29 /* AddDrinkViewController.swift */,
+				67DD06092235B13300122A29 /* Exercise.swift */,
+				67DD06052235AF1200122A29 /* ExerciseViewController.swift */,
+				67DD06072235B03700122A29 /* ExerciseDataController.swift */,
+				67DD06192235FAE400122A29 /* AddExerciseViewController.swift */,
+				67DD060B2235B29400122A29 /* Sleep.swift */,
+				67DD060D2235B2F700122A29 /* SleepViewController.swift */,
+				67DD060F2235B44200122A29 /* SleepDataController.swift */,
+				67DD061B2235FB1400122A29 /* AddSleepViewController.swift */,
+				67DD06112235BBED00122A29 /* DetailViewController.swift */,
+				67DD05EA2230A4ED00122A29 /* Assets.xcassets */,
+				67DD05EC2230A4ED00122A29 /* LaunchScreen.storyboard */,
+				67DD05EF2230A4EE00122A29 /* Info.plist */,
+			);
+			path = fitnessTrackerPro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67DD05DD2230A4E800122A29 /* fitnessTrackerPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67DD05F22230A4EE00122A29 /* Build configuration list for PBXNativeTarget "fitnessTrackerPro" */;
+			buildPhases = (
+				0AD96AD1A1ADEB98BE4A77CE /* [CP] Check Pods Manifest.lock */,
+				67DD05DA2230A4E800122A29 /* Sources */,
+				67DD05DB2230A4E800122A29 /* Frameworks */,
+				67DD05DC2230A4E800122A29 /* Resources */,
+				F8F27208A6C6CE344F669F24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitnessTrackerPro;
+			productName = fitnessTrackerPro;
+			productReference = 67DD05DE2230A4E800122A29 /* fitnessTrackerPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67DD05D62230A4E800122A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ari Klebanov";
+				TargetAttributes = {
+					67DD05DD2230A4E800122A29 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 67DD05D92230A4E800122A29 /* Build configuration list for PBXProject "fitnessTrackerPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67DD05D52230A4E800122A29;
+			productRefGroup = 67DD05DF2230A4E800122A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67DD05DD2230A4E800122A29 /* fitnessTrackerPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67DD05DC2230A4E800122A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DD05EE2230A4ED00122A29 /* LaunchScreen.storyboard in Resources */,
+				67DD05EB2230A4ED00122A29 /* Assets.xcassets in Resources */,
+				67DD05E92230A4E800122A29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD96AD1A1ADEB98BE4A77CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fitnessTrackerPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F27208A6C6CE344F669F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fitnessTrackerPro/Pods-fitnessTrackerPro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fitnessTrackerPro/Pods-fitnessTrackerPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67DD05DA2230A4E800122A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DD060E2235B2F700122A29 /* SleepViewController.swift in Sources */,
+				67DD060C2235B29400122A29 /* Sleep.swift in Sources */,
+				67DD05E62230A4E800122A29 /* DrinkViewController.swift in Sources */,
+				67DD05F6223198BD00122A29 /* Food.swift in Sources */,
+				67DD061C2235FB1400122A29 /* AddSleepViewController.swift in Sources */,
+				67DD05E22230A4E800122A29 /* AppDelegate.swift in Sources */,
+				67DD06162235F10000122A29 /* AddFoodViewController.swift in Sources */,
+				67DD061A2235FAE400122A29 /* AddExerciseViewController.swift in Sources */,
+				67DD06022235AAE100122A29 /* DrinkDataController.swift in Sources */,
+				67DD06182235F14B00122A29 /* AddDrinkViewController.swift in Sources */,
+				67DD05E42230A4E800122A29 /* FoodViewController.swift in Sources */,
+				67DD060A2235B13300122A29 /* Exercise.swift in Sources */,
+				67DD06082235B03700122A29 /* ExerciseDataController.swift in Sources */,
+				67DD05FC2235AA3500122A29 /* Drink.swift in Sources */,
+				67DD06062235AF1200122A29 /* ExerciseViewController.swift in Sources */,
+				67DD05F82231999A00122A29 /* FoodDataController.swift in Sources */,
+				67DD06102235B44200122A29 /* SleepDataController.swift in Sources */,
+				67DD06122235BBED00122A29 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67DD05E72230A4E800122A29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67DD05E82230A4E800122A29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67DD05EC2230A4ED00122A29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67DD05ED2230A4ED00122A29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67DD05F02230A4EE00122A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67DD05F12230A4EE00122A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67DD05F32230A4EE00122A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D804277E72BA5027876E9CB2 /* Pods-fitnessTrackerPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BA6D5CY5N;
+				INFOPLIST_FILE = fitnessTrackerPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ATLAS-4120.fitnessTrackerPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67DD05F42230A4EE00122A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBAE8514962376637703D2C /* Pods-fitnessTrackerPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BA6D5CY5N;
+				INFOPLIST_FILE = fitnessTrackerPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ATLAS-4120.fitnessTrackerPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67DD05D92230A4E800122A29 /* Build configuration list for PBXProject "fitnessTrackerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67DD05F02230A4EE00122A29 /* Debug */,
+				67DD05F12230A4EE00122A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67DD05F22230A4EE00122A29 /* Build configuration list for PBXNativeTarget "fitnessTrackerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67DD05F32230A4EE00122A29 /* Debug */,
+				67DD05F42230A4EE00122A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67DD05D62230A4E800122A29 /* Project object */;
+}
