@@ -26,6 +26,11 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
     
     var selectedEntry = 0
 
+    @IBAction func onTapGestureRecognized(_ sender: UITapGestureRecognizer) {
+        textField1.resignFirstResponder()
+        textField2.resignFirstResponder()
+        textField3.resignFirstResponder()
+    }
     @IBOutlet weak var UILabel1: UILabel!
     @IBOutlet weak var UILabel2: UILabel!
     @IBOutlet weak var UILabel3: UILabel!

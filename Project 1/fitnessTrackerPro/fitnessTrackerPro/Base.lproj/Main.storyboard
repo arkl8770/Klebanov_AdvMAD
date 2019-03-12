@@ -478,6 +478,7 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="l86-nT-mA3" firstAttribute="top" secondItem="IsY-wv-TbN" secondAttribute="top" constant="50" id="4rC-4d-jQe"/>
                             <constraint firstItem="IsY-wv-TbN" firstAttribute="trailing" secondItem="K8f-Ry-k52" secondAttribute="trailing" constant="16" id="BSW-M1-4jr"/>
@@ -490,6 +491,9 @@
                             <constraint firstItem="K8f-Ry-k52" firstAttribute="top" secondItem="TV2-B2-aMA" secondAttribute="bottom" constant="50" id="vgb-mI-TVh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IsY-wv-TbN"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="mgs-xi-pZ1" appends="YES" id="yjl-3q-rEh"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="NOz-aF-84B">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="Iu2-xY-b0a">
@@ -509,6 +513,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5LZ-GQ-Mnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="vZB-d7-yHq" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="mgs-xi-pZ1">
+                    <connections>
+                        <action selector="onTapGestureRecognized:" destination="gE8-TK-9Xc" id="8Dl-gJ-LuN"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2314" y="-8"/>
         </scene>
