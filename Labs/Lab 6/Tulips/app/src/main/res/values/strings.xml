@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tulips</string>
+    <string name="bulbs">Bulbs</string>
+    <string name="bulbImage">Tulip</string>
+    <string name="create_order">Order</string>
+    <string name="action_settings">Settings</string>
+</resources>
