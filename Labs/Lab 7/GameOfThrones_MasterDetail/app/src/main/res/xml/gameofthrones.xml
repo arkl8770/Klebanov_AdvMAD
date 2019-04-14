@@ -1,0 +1,50 @@
+<characters>
+    <character>
+        <name>Daenerys Targaryen</name>
+        <url>https://en.wikipedia.org/wiki/Daenerys_Targaryen</url>
+    </character>
+    <character>
+        <name>Jon Snow</name>
+        <url>https://en.wikipedia.org/wiki/Jon_Snow_(character)</url>
+    </character>
+    <character>
+        <name>Ned Stark</name>
+        <url>https://en.wikipedia.org/wiki/Ned_Stark</url>
+    </character>
+    <character>
+        <name>Cersei Lannister</name>
+        <url>https://en.wikipedia.org/wiki/Cersei_Lannister</url>
+    </character>
+    <character>
+        <name>Arya Stark</name>
+        <url>https://en.wikipedia.org/wiki/Arya_Stark</url>
+    </character>
+    <character>
+        <name>Tyrion Lannister</name>
+        <url>https://en.wikipedia.org/wiki/Tyrion_Lannister</url>
+    </character>
+    <character>
+        <name>Joffrey Baratheon</name>
+        <url>https://en.wikipedia.org/wiki/Joffrey_Baratheon</url>
+    </character>
+    <character>
+        <name>Sansa Stark</name>
+        <url>https://en.wikipedia.org/wiki/Sansa_Stark</url>
+    </character>
+    <character>
+        <name>Petyr Baelish</name>
+        <url>https://en.wikipedia.org/wiki/Petyr_Baelish</url>
+    </character>
+    <character>
+        <name>Sandor Clegane</name>
+        <url>https://en.wikipedia.org/wiki/Sandor_Clegane</url>
+    </character>
+    <character>
+        <name>Khal Drogo</name>
+        <url>https://en.wikipedia.org/wiki/Khal_Drogo</url>
+    </character>
+    <character>
+        <name>Bran Stark</name>
+        <url>https://en.wikipedia.org/wiki/Bran_Stark</url>
+    </character>
+</characters>
