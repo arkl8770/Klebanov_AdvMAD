@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fitness Tracker Lite</string>
+    <string name="title_food">Food</string>
+    <string name="title_drink">Drink</string>
+    <string name="title_exercise">Exercise</string>
+    <string name="title_sleep">Sleep</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="food_fragment">Food fragment</string>
+    <string name="drink_fragment">Drink fragment</string>
+    <string name="exercise_fragment">Exercise fragment</string>
+    <string name="sleep_fragment">Sleep fragment</string>
+</resources>
